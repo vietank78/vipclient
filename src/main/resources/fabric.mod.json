@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "vipclient",
+  "version": "${version}",
+  "name": "VipClient",
+  "description": "Meteor addon: Wurst-style ESP (chest groups, players/mobs/items), TriggerBot, BunnyHop and Panic.",
+  "authors": ["You"],
+  "license": "GPL-3.0-or-later",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.vipclient.VipClient"]
+  },
+  "custom": {
+    "meteor-client:color": "255,170,0"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "${mc_version}",
+    "meteor-client": "*"
+  }
+}
